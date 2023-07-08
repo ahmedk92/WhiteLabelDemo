@@ -1,0 +1,12 @@
+packages:
+  Alamofire:
+    url: https://github.com/Alamofire/Alamofire
+    version: 4.9.1
+
+targetTemplates:
+  ProjectTemplate:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    dependencies:
+      - package: Alamofire

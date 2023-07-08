@@ -1,0 +1,13 @@
+name: Project2
+
+include:
+  - path: base.yml
+
+targets:
+  Project2:
+    templates:
+      - ProjectTemplate
+    sources:
+      - Source
+      - Projects/Project2/Info.plist
+      - Projects/Project2/Assets.xcassets

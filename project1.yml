@@ -1,0 +1,14 @@
+name: Project1
+
+include:
+  - path: base.yml
+
+targets:
+  Project1:
+    templates:
+      - ProjectTemplate
+    sources:
+      - Source
+      - Projects/Project1/Info.plist
+      - Projects/Project1/Assets.xcassets
+      - Projects/Project1/Launch Screen.storyboard
